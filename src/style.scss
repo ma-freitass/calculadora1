@@ -65,3 +65,17 @@ section h3 {
   color: #800000;
   margin-top: 5px;
 }
+@media (max-width: 600px) {
+  h1 img {
+    max-width: 80%; 
+  }
+
+  button {
+    font-size: 0.9rem; 
+    padding: 8px 12px;
+  }
+
+  .button-group {
+    gap: 8px; 
+  }
+}
